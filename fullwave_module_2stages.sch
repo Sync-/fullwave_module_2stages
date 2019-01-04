@@ -1,0 +1,799 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L device:C C1
+U 1 1 5C0F6D32
+P 2400 2550
+F 0 "C1" V 2148 2550 50  0000 C CNN
+F 1 "C" V 2239 2550 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L41.5mm_W24.0mm_P37.50mm_MKS4" H 2438 2400 50  0001 C CNN
+F 3 "" H 2400 2550 50  0001 C CNN
+	1    2400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:D D1
+U 1 1 5C0F6DCE
+P 3400 2700
+F 0 "D1" H 3500 2800 50  0000 C CNN
+F 1 "D" H 3300 2800 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 3400 2700 50  0001 C CNN
+F 3 "" H 3400 2700 50  0001 C CNN
+	1    3400 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:R R3
+U 1 1 5C0F6E51
+P 3600 2700
+F 0 "R3" V 3393 2700 50  0000 C CNN
+F 1 "3.3M" V 3484 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 3485 2700 50  0001 C CNN
+F 3 "" H 3600 2700 50  0000 C CNN
+	1    3600 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2850 3500 2850
+$Comp
+L device:D D2
+U 1 1 5C0F6FCD
+P 3400 3050
+F 0 "D2" H 3500 3150 50  0000 C CNN
+F 1 "D" H 3300 3150 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 3400 3050 50  0001 C CNN
+F 3 "" H 3400 3050 50  0001 C CNN
+	1    3400 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:R R4
+U 1 1 5C0F6FD3
+P 3600 3050
+F 0 "R4" V 3393 3050 50  0000 C CNN
+F 1 "3.3M" V 3484 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 3485 3050 50  0001 C CNN
+F 3 "" H 3600 3050 50  0000 C CNN
+	1    3600 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2900 3500 2900
+Wire Wire Line
+	3600 3200 3500 3200
+$Comp
+L device:D D3
+U 1 1 5C0F709E
+P 3400 3400
+F 0 "D3" H 3500 3500 50  0000 C CNN
+F 1 "D" H 3300 3500 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 3400 3400 50  0001 C CNN
+F 3 "" H 3400 3400 50  0001 C CNN
+	1    3400 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:R R5
+U 1 1 5C0F70A4
+P 3600 3400
+F 0 "R5" V 3393 3400 50  0000 C CNN
+F 1 "3.3M" V 3484 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 3485 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0000 C CNN
+	1    3600 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3250 3500 3250
+Wire Wire Line
+	3600 3550 3500 3550
+$Comp
+L device:D D4
+U 1 1 5C0F70AC
+P 3400 3750
+F 0 "D4" H 3500 3850 50  0000 C CNN
+F 1 "D" H 3300 3850 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 3400 3750 50  0001 C CNN
+F 3 "" H 3400 3750 50  0001 C CNN
+	1    3400 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:R R6
+U 1 1 5C0F70B2
+P 3600 3750
+F 0 "R6" V 3393 3750 50  0000 C CNN
+F 1 "3.3M" V 3484 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 3485 3750 50  0001 C CNN
+F 3 "" H 3600 3750 50  0000 C CNN
+	1    3600 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3600 3500 3600
+Wire Wire Line
+	3600 3900 3500 3900
+Wire Wire Line
+	3500 2850 3500 2900
+Connection ~ 3500 2850
+Wire Wire Line
+	3500 2850 3400 2850
+Connection ~ 3500 2900
+Wire Wire Line
+	3500 2900 3400 2900
+Wire Wire Line
+	3500 3200 3500 3250
+Connection ~ 3500 3200
+Wire Wire Line
+	3500 3200 3400 3200
+Connection ~ 3500 3250
+Wire Wire Line
+	3500 3250 3400 3250
+Wire Wire Line
+	3500 3550 3500 3600
+Connection ~ 3500 3550
+Wire Wire Line
+	3500 3550 3400 3550
+Connection ~ 3500 3600
+Wire Wire Line
+	3500 3600 3400 3600
+$Comp
+L device:C C3
+U 1 1 5C0F754C
+P 2750 2550
+F 0 "C3" V 2498 2550 50  0000 C CNN
+F 1 "C" V 2589 2550 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L41.5mm_W24.0mm_P37.50mm_MKS4" H 2788 2400 50  0001 C CNN
+F 3 "" H 2750 2550 50  0001 C CNN
+	1    2750 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 2550 2600 2550
+$Comp
+L device:C C5
+U 1 1 5C0F82CD
+P 3850 4200
+F 0 "C5" V 3598 4200 50  0000 C CNN
+F 1 "C" V 3689 4200 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L41.5mm_W24.0mm_P37.50mm_MKS4" H 3888 4050 50  0001 C CNN
+F 3 "" H 3850 4200 50  0001 C CNN
+	1    3850 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C6
+U 1 1 5C0F82D3
+P 4200 4200
+F 0 "C6" V 3948 4200 50  0000 C CNN
+F 1 "C" V 4039 4200 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L41.5mm_W24.0mm_P37.50mm_MKS4" H 4238 4050 50  0001 C CNN
+F 3 "" H 4200 4200 50  0001 C CNN
+	1    4200 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 4200 4050 4200
+$Comp
+L device:D D12
+U 1 1 5C0F97C9
+P 5050 3750
+F 0 "D12" H 5150 3850 50  0000 C CNN
+F 1 "D" H 4950 3850 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 5050 3750 50  0001 C CNN
+F 3 "" H 5050 3750 50  0001 C CNN
+	1    5050 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R14
+U 1 1 5C0F97CF
+P 4850 3750
+F 0 "R14" V 4643 3750 50  0000 C CNN
+F 1 "3.3M" V 4734 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4735 3750 50  0001 C CNN
+F 3 "" H 4850 3750 50  0000 C CNN
+	1    4850 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3900 4950 3900
+Wire Wire Line
+	4850 3600 4950 3600
+$Comp
+L device:D D11
+U 1 1 5C0F97D7
+P 5050 3400
+F 0 "D11" H 5150 3500 50  0000 C CNN
+F 1 "D" H 4950 3500 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 5050 3400 50  0001 C CNN
+F 3 "" H 5050 3400 50  0001 C CNN
+	1    5050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R13
+U 1 1 5C0F97DD
+P 4850 3400
+F 0 "R13" V 4643 3400 50  0000 C CNN
+F 1 "3.3M" V 4734 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4735 3400 50  0001 C CNN
+F 3 "" H 4850 3400 50  0000 C CNN
+	1    4850 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3550 4950 3550
+Wire Wire Line
+	4850 3250 4950 3250
+$Comp
+L device:D D10
+U 1 1 5C0F97E5
+P 5050 3050
+F 0 "D10" H 5150 3150 50  0000 C CNN
+F 1 "D" H 4950 3150 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 5050 3050 50  0001 C CNN
+F 3 "" H 5050 3050 50  0001 C CNN
+	1    5050 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R12
+U 1 1 5C0F97EB
+P 4850 3050
+F 0 "R12" V 4643 3050 50  0000 C CNN
+F 1 "3.3M" V 4734 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4735 3050 50  0001 C CNN
+F 3 "" H 4850 3050 50  0000 C CNN
+	1    4850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3200 4950 3200
+Wire Wire Line
+	4850 2900 4950 2900
+$Comp
+L device:D D9
+U 1 1 5C0F97F3
+P 5050 2700
+F 0 "D9" H 5150 2800 50  0000 C CNN
+F 1 "D" H 4950 2800 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 5050 2700 50  0001 C CNN
+F 3 "" H 5050 2700 50  0001 C CNN
+	1    5050 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R11
+U 1 1 5C0F97F9
+P 4850 2700
+F 0 "R11" V 4643 2700 50  0000 C CNN
+F 1 "3.3M" V 4734 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4735 2700 50  0001 C CNN
+F 3 "" H 4850 2700 50  0000 C CNN
+	1    4850 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2850 4950 2850
+Wire Wire Line
+	4850 2550 5050 2550
+Wire Wire Line
+	4950 3600 4950 3550
+Connection ~ 4950 3600
+Wire Wire Line
+	4950 3600 5050 3600
+Connection ~ 4950 3550
+Wire Wire Line
+	4950 3550 5050 3550
+Wire Wire Line
+	4950 3250 4950 3200
+Connection ~ 4950 3250
+Wire Wire Line
+	4950 3250 5050 3250
+Connection ~ 4950 3200
+Wire Wire Line
+	4950 3200 5050 3200
+Wire Wire Line
+	4950 2900 4950 2850
+Connection ~ 4950 2900
+Wire Wire Line
+	4950 2900 5050 2900
+Connection ~ 4950 2850
+Wire Wire Line
+	4950 2850 5050 2850
+$Comp
+L device:D D16
+U 1 1 5C0FBE56
+P 5050 5700
+F 0 "D16" H 5150 5800 50  0000 C CNN
+F 1 "D" H 4950 5800 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 5050 5700 50  0001 C CNN
+F 3 "" H 5050 5700 50  0001 C CNN
+	1    5050 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:R R18
+U 1 1 5C0FBE5C
+P 4850 5700
+F 0 "R18" V 4643 5700 50  0000 C CNN
+F 1 "3.3M" V 4734 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4735 5700 50  0001 C CNN
+F 3 "" H 4850 5700 50  0000 C CNN
+	1    4850 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5550 4950 5550
+$Comp
+L device:D D15
+U 1 1 5C0FBE64
+P 5050 5350
+F 0 "D15" H 5150 5450 50  0000 C CNN
+F 1 "D" H 4950 5450 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 5050 5350 50  0001 C CNN
+F 3 "" H 5050 5350 50  0001 C CNN
+	1    5050 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:R R17
+U 1 1 5C0FBE6A
+P 4850 5350
+F 0 "R17" V 4643 5350 50  0000 C CNN
+F 1 "3.3M" V 4734 5350 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4735 5350 50  0001 C CNN
+F 3 "" H 4850 5350 50  0000 C CNN
+	1    4850 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5500 4950 5500
+Wire Wire Line
+	4850 5200 4950 5200
+$Comp
+L device:D D14
+U 1 1 5C0FBE72
+P 5050 5000
+F 0 "D14" H 5150 5100 50  0000 C CNN
+F 1 "D" H 4950 5100 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 5050 5000 50  0001 C CNN
+F 3 "" H 5050 5000 50  0001 C CNN
+	1    5050 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:R R16
+U 1 1 5C0FBE78
+P 4850 5000
+F 0 "R16" V 4643 5000 50  0000 C CNN
+F 1 "3.3M" V 4734 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4735 5000 50  0001 C CNN
+F 3 "" H 4850 5000 50  0000 C CNN
+	1    4850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5150 4950 5150
+Wire Wire Line
+	4850 4850 4950 4850
+$Comp
+L device:D D13
+U 1 1 5C0FBE80
+P 5050 4650
+F 0 "D13" H 5150 4750 50  0000 C CNN
+F 1 "D" H 4950 4750 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 5050 4650 50  0001 C CNN
+F 3 "" H 5050 4650 50  0001 C CNN
+	1    5050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L stmbl:R R15
+U 1 1 5C0FBE86
+P 4850 4650
+F 0 "R15" V 4643 4650 50  0000 C CNN
+F 1 "3.3M" V 4734 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4735 4650 50  0001 C CNN
+F 3 "" H 4850 4650 50  0000 C CNN
+	1    4850 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4800 4950 4800
+Wire Wire Line
+	4850 4500 4950 4500
+Wire Wire Line
+	4950 5550 4950 5500
+Connection ~ 4950 5550
+Wire Wire Line
+	4950 5550 5050 5550
+Connection ~ 4950 5500
+Wire Wire Line
+	4950 5500 5050 5500
+Wire Wire Line
+	4950 5200 4950 5150
+Connection ~ 4950 5200
+Wire Wire Line
+	4950 5200 5050 5200
+Connection ~ 4950 5150
+Wire Wire Line
+	4950 5150 5050 5150
+Wire Wire Line
+	4950 4850 4950 4800
+Connection ~ 4950 4850
+Wire Wire Line
+	4950 4850 5050 4850
+Connection ~ 4950 4800
+Wire Wire Line
+	4950 4800 5050 4800
+$Comp
+L device:D D5
+U 1 1 5C0FBE9D
+P 3400 4650
+F 0 "D5" H 3500 4750 50  0000 C CNN
+F 1 "D" H 3300 4750 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 3400 4650 50  0001 C CNN
+F 3 "" H 3400 4650 50  0001 C CNN
+	1    3400 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R7
+U 1 1 5C0FBEA3
+P 3600 4650
+F 0 "R7" V 3393 4650 50  0000 C CNN
+F 1 "3.3M" V 3484 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 3485 4650 50  0001 C CNN
+F 3 "" H 3600 4650 50  0000 C CNN
+	1    3600 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 4500 3500 4500
+Wire Wire Line
+	3600 4800 3500 4800
+$Comp
+L device:D D6
+U 1 1 5C0FBEAB
+P 3400 5000
+F 0 "D6" H 3500 5100 50  0000 C CNN
+F 1 "D" H 3300 5100 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 3400 5000 50  0001 C CNN
+F 3 "" H 3400 5000 50  0001 C CNN
+	1    3400 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R8
+U 1 1 5C0FBEB1
+P 3600 5000
+F 0 "R8" V 3393 5000 50  0000 C CNN
+F 1 "3.3M" V 3484 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 3485 5000 50  0001 C CNN
+F 3 "" H 3600 5000 50  0000 C CNN
+	1    3600 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 4850 3500 4850
+Wire Wire Line
+	3600 5150 3500 5150
+$Comp
+L device:D D7
+U 1 1 5C0FBEB9
+P 3400 5350
+F 0 "D7" H 3500 5450 50  0000 C CNN
+F 1 "D" H 3300 5450 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 3400 5350 50  0001 C CNN
+F 3 "" H 3400 5350 50  0001 C CNN
+	1    3400 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R9
+U 1 1 5C0FBEBF
+P 3600 5350
+F 0 "R9" V 3393 5350 50  0000 C CNN
+F 1 "3.3M" V 3484 5350 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 3485 5350 50  0001 C CNN
+F 3 "" H 3600 5350 50  0000 C CNN
+	1    3600 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 5200 3500 5200
+Wire Wire Line
+	3600 5500 3500 5500
+$Comp
+L device:D D8
+U 1 1 5C0FBEC7
+P 3400 5700
+F 0 "D8" H 3500 5800 50  0000 C CNN
+F 1 "D" H 3300 5800 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 3400 5700 50  0001 C CNN
+F 3 "" H 3400 5700 50  0001 C CNN
+	1    3400 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R10
+U 1 1 5C0FBECD
+P 3600 5700
+F 0 "R10" V 3393 5700 50  0000 C CNN
+F 1 "3.3M" V 3484 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 3485 5700 50  0001 C CNN
+F 3 "" H 3600 5700 50  0000 C CNN
+	1    3600 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 5550 3500 5550
+Wire Wire Line
+	3500 4800 3500 4850
+Connection ~ 3500 4800
+Wire Wire Line
+	3500 4800 3400 4800
+Connection ~ 3500 4850
+Wire Wire Line
+	3500 4850 3400 4850
+Wire Wire Line
+	3500 5150 3500 5200
+Connection ~ 3500 5150
+Wire Wire Line
+	3500 5150 3400 5150
+Connection ~ 3500 5200
+Wire Wire Line
+	3500 5200 3400 5200
+Wire Wire Line
+	3500 5500 3500 5550
+Connection ~ 3500 5500
+Wire Wire Line
+	3500 5500 3400 5500
+Connection ~ 3500 5550
+Wire Wire Line
+	3500 5550 3400 5550
+$Comp
+L device:C C2
+U 1 1 5C105242
+P 2400 5850
+F 0 "C2" V 2148 5850 50  0000 C CNN
+F 1 "C" V 2239 5850 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L41.5mm_W24.0mm_P37.50mm_MKS4" H 2438 5700 50  0001 C CNN
+F 3 "" H 2400 5850 50  0001 C CNN
+	1    2400 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C4
+U 1 1 5C105248
+P 2750 5850
+F 0 "C4" V 2498 5850 50  0000 C CNN
+F 1 "C" V 2589 5850 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L41.5mm_W24.0mm_P37.50mm_MKS4" H 2788 5700 50  0001 C CNN
+F 3 "" H 2750 5850 50  0001 C CNN
+	1    2750 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 5850 2600 5850
+$Comp
+L stmbl:R R1
+U 1 1 5C10DCB2
+P 3100 2550
+F 0 "R1" V 3307 2550 50  0000 C CNN
+F 1 "330" V 3216 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 2985 2550 50  0001 C CNN
+F 3 "" H 3100 2550 50  0000 C CNN
+	1    3100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stmbl:R R2
+U 1 1 5C10DDE0
+P 3100 5850
+F 0 "R2" V 3307 5850 50  0000 C CNN
+F 1 "330" V 3216 5850 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 2985 5850 50  0001 C CNN
+F 3 "" H 3100 5850 50  0000 C CNN
+	1    3100 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 2550 2950 2550
+Wire Wire Line
+	2900 5850 2950 5850
+Wire Wire Line
+	3500 3900 3500 4200
+Connection ~ 3500 3900
+Wire Wire Line
+	3500 3900 3400 3900
+Connection ~ 3500 4500
+Wire Wire Line
+	3500 4500 3400 4500
+Wire Wire Line
+	3500 4200 3700 4200
+Connection ~ 3500 4200
+Wire Wire Line
+	3500 4200 3500 4500
+Wire Wire Line
+	3600 2550 4850 2550
+Connection ~ 3600 2550
+Connection ~ 4850 2550
+Wire Wire Line
+	3600 5850 4850 5850
+Connection ~ 3600 5850
+Connection ~ 4850 5850
+Connection ~ 4950 3900
+Wire Wire Line
+	4950 3900 5050 3900
+Connection ~ 4950 4500
+Wire Wire Line
+	4950 4500 5050 4500
+Wire Wire Line
+	2250 2550 2000 2550
+Wire Wire Line
+	2250 5850 2000 5850
+$Comp
+L Mechanical:Mounting_Hole_PAD MK1
+U 1 1 5C14A81D
+P 1900 2550
+F 0 "MK1" V 2137 2555 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 2046 2555 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1900 2550 50  0001 C CNN
+F 3 "" H 1900 2550 50  0001 C CNN
+	1    1900 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 3900 4950 4200
+$Comp
+L stmbl:R R19
+U 1 1 5C14DE7C
+P 4550 4200
+F 0 "R19" V 4757 4200 50  0000 C CNN
+F 1 "330" V 4666 4200 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 4435 4200 50  0001 C CNN
+F 3 "" H 4550 4200 50  0000 C CNN
+	1    4550 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 4200 4400 4200
+Wire Wire Line
+	4700 4200 4950 4200
+Connection ~ 4950 4200
+Wire Wire Line
+	4950 4200 4950 4500
+Wire Wire Line
+	5050 2550 5150 2550
+Connection ~ 5050 2550
+$Comp
+L Mechanical:Mounting_Hole_PAD MK3
+U 1 1 5C15AD08
+P 3400 4200
+F 0 "MK3" V 3637 4205 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 3546 4205 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 3400 4200 50  0001 C CNN
+F 3 "" H 3400 4200 50  0001 C CNN
+	1    3400 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK4
+U 1 1 5C15ADD6
+P 5050 4200
+F 0 "MK4" V 5004 4350 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" V 5095 4350 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 5050 4200 50  0001 C CNN
+F 3 "" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK6
+U 1 1 5C15AEE4
+P 5300 5850
+F 0 "MK6" V 5254 6000 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" V 5345 6000 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 5300 5850 50  0001 C CNN
+F 3 "" H 5300 5850 50  0001 C CNN
+	1    5300 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK5
+U 1 1 5C15AF9A
+P 5250 2550
+F 0 "MK5" V 5204 2700 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" V 5295 2700 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 5250 2550 50  0001 C CNN
+F 3 "" H 5250 2550 50  0001 C CNN
+	1    5250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK2
+U 1 1 5C15B080
+P 1900 5850
+F 0 "MK2" V 2137 5855 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 2046 5855 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1900 5850 50  0001 C CNN
+F 3 "" H 1900 5850 50  0001 C CNN
+	1    1900 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK7
+U 1 1 5C15BE58
+P 1850 6400
+F 0 "MK7" H 1950 6446 50  0000 L CNN
+F 1 "Mounting_Hole" H 1950 6355 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965" H 1850 6400 50  0001 C CNN
+F 3 "" H 1850 6400 50  0001 C CNN
+	1    1850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK8
+U 1 1 5C15C6F7
+P 1850 6600
+F 0 "MK8" H 1950 6646 50  0000 L CNN
+F 1 "Mounting_Hole" H 1950 6555 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965" H 1850 6600 50  0001 C CNN
+F 3 "" H 1850 6600 50  0001 C CNN
+	1    1850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK9
+U 1 1 5C15C775
+P 1850 6800
+F 0 "MK9" H 1950 6846 50  0000 L CNN
+F 1 "Mounting_Hole" H 1950 6755 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965" H 1850 6800 50  0001 C CNN
+F 3 "" H 1850 6800 50  0001 C CNN
+	1    1850 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK10
+U 1 1 5C15C7F1
+P 1850 7000
+F 0 "MK10" H 1950 7046 50  0000 L CNN
+F 1 "Mounting_Hole" H 1950 6955 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965" H 1850 7000 50  0001 C CNN
+F 3 "" H 1850 7000 50  0001 C CNN
+	1    1850 7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 2550
+Wire Wire Line
+	3250 2550 3400 2550
+Wire Wire Line
+	3600 2550 3400 2550
+Wire Wire Line
+	3250 5850 3400 5850
+Connection ~ 3400 5850
+Wire Wire Line
+	3400 5850 3600 5850
+Wire Wire Line
+	4850 5850 5050 5850
+Connection ~ 5050 5850
+Wire Wire Line
+	5050 5850 5200 5850
+$EndSCHEMATC
